@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Decodificador de Texto</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<img class="logoAlura" src="logo_a.png" alt="Logo A de Alura">
+		</header>
+
+		<main>
+			<section>
+				<textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+				<div>
+					<h6 class="informacao"><img src="exclamacao.png">Apenas letras minúsculas sem acentos.</h6>
+				</div>
+
+				<div class="botoes">
+					<button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+					<button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+				</div>
+			</section>
+
+			<section>
+				<textarea class="mensagem" cols="20" rows="10"></textarea>
+				<button class="btn-copiar">Copiar</button>
+			</section>
+		</main>
+		<footer>
+			<p>&#169; Copyright Lilia Rute - 2023</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
